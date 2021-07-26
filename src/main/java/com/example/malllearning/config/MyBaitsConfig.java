@@ -8,6 +8,6 @@ import org.springframework.context.annotation.Configuration;
  * Created by chenhao on 2021/7/15
  */
 @Configuration
-@MapperScan("com.example.malllearning.mbg.mapper")
+@MapperScan({"com.example.malllearning.mbg.mapper","com.example.malllearning.dao"})
 public class MyBaitsConfig {
 }
